@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database files
+*.sql.backup
+*.db
+
+# Vendor dependencies
+/vendor/
+/node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+/logs/
+
+# Cache files
+/cache/
+/tmp/
+
+# Upload directories (if they contain user uploads)
+/uploads/
+/images/uploads/
+
+# Config files that might contain sensitive data
+config/local.php
+config/production.php
+
+# Mobile app specific
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/.expo-shared/
+
+# Build files
+/build/
+/dist/

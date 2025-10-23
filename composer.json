@@ -1,0 +1,17 @@
+{
+    "name": "m-ecommerce/crm-system",
+    "description": "Complete CRM system for M-Ecommerce with email functionality",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MCommerce\\": "includes/"
+        }
+    },
+    "scripts": {
+        "setup": "php setup_crm.php"
+    }
+}
