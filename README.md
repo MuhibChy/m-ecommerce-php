@@ -9,7 +9,13 @@ A complete e-commerce website built with PHP, MySQL, and modern web technologies
 
 ## 🎯 Demo
 
-> **Note**: This is a demonstration project showcasing a full-featured e-commerce platform built with PHP and MySQL.
+🌐 **[View Live Demo](https://muhibchy.github.io/m-ecommerce-php/demo.html)** - Static demo showcasing the UI/UX
+
+> **Important**: GitHub Pages only supports static files. The live demo shows the interface, but the full PHP functionality requires a proper web server with PHP and MySQL support.
+
+### For Full Functionality
+- **Local Setup**: Follow the installation guide below for complete features
+- **Web Hosting**: Deploy to any PHP hosting service (see deployment section)
 
 ### Live Demo Features
 - Complete user authentication system
@@ -192,6 +198,34 @@ fetch('/m-ecommerce-php/api/cart.php', {
 3. Update `config/database.php` with production credentials
 4. Set appropriate file permissions
 5. Configure SSL certificate for HTTPS
+
+## 🌐 Deployment Options
+
+### Option 1: GitHub Pages (Static Demo Only)
+The current GitHub Pages deployment shows a static demo of the interface:
+- ✅ **Working**: UI/UX demonstration, responsive design
+- ❌ **Not Working**: PHP functionality, database operations, user authentication
+
+### Option 2: PHP Web Hosting (Recommended)
+For full functionality, deploy to a PHP hosting service:
+
+**Popular PHP Hosting Options:**
+- **Shared Hosting**: Hostinger, Bluehost, SiteGround
+- **VPS/Cloud**: DigitalOcean, Linode, AWS EC2
+- **Free Options**: 000webhost, InfinityFree (limited features)
+
+**Deployment Steps:**
+1. Upload all files to web server
+2. Create MySQL database
+3. Import `database/ecommerce.sql`
+4. Update `config/database.php` with server credentials
+5. Set proper file permissions (755 for directories, 644 for files)
+
+### Option 3: Local Development
+For development and testing:
+1. Install XAMPP/WAMP/MAMP
+2. Follow the installation guide above
+3. Access via `http://localhost/m-ecommerce-php`
 
 ## 🔧 Customization
 
